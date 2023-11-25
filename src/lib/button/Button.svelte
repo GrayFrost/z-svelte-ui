@@ -2,4 +2,4 @@
 
 </script>
 
-<button>按钮</button>
+<button>button</button>
