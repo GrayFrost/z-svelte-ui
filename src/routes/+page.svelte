@@ -108,7 +108,7 @@
 <Pagination></Pagination>
 <Popconfirm></Popconfirm>
 <Popover></Popover>
-<Progress></Progress>
+<Progress progress={45}></Progress>
 <Radio></Radio>
 <Row></Row>
 <Select></Select>
