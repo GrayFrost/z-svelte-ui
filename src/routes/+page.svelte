@@ -9,6 +9,7 @@
 		Badge,
 		Breadcrumb,
 		Button,
+		ButtonGroup,
 		Calendar,
 		Card,
 		Carousel,
@@ -68,7 +69,19 @@
 <BackTop></BackTop>
 <Badge></Badge>
 <Breadcrumb></Breadcrumb>
-<Button></Button>
+<hr/>
+<Button>default</Button>
+<Button type="primary">primary</Button>
+<Button type="dashed">dashed</Button>
+<Button type="text">text</Button>
+<Button type="link">link</Button>
+<hr/>
+<ButtonGroup>
+	<Button>default</Button>
+	<Button type="primary">primary</Button>
+	<Button type="dashed">dashed</Button>
+</ButtonGroup>
+<hr />
 <Calendar></Calendar>
 <Card></Card>
 <Carousel></Carousel>

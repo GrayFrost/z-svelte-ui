@@ -8,6 +8,7 @@ export { default as BackTop } from './back-top/BackTop.svelte';
 export { default as Badge } from './badge/Badge.svelte';
 export { default as Breadcrumb } from './breadcrumb/Breadcrumb.svelte';
 export { default as Button } from './button/Button.svelte';
+export { default as ButtonGroup } from './button/ButtonGroup.svelte';
 export { default as Calendar } from './calendar/Calendar.svelte';
 export { default as Card } from './card/Card.svelte';
 export { default as Carousel } from './carousel/Carousel.svelte';
