@@ -55,6 +55,11 @@
 		Tree,
 		Upload
 	} from '$lib';
+
+	let drawerShow = false;
+	const testDrawer = () => {
+		drawerShow = !drawerShow;
+	}
 </script>
 
 <div class="flex flex-col">
@@ -88,7 +93,10 @@
 	<Collapse></Collapse>
 	<ColorPicker></ColorPicker>
 	<DatePicker></DatePicker>
-	<Drawer></Drawer>
+	<hr />
+	<button on:click={testDrawer}>test drawer</button>
+	<Drawer visible={drawerShow}></Drawer>
+	<hr />
 	<Dropdown></Dropdown>
 	<Form></Form>
 	<Grid></Grid>
