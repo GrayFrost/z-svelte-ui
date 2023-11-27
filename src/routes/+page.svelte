@@ -27,7 +27,6 @@
 		Input,
 		InputNumber,
 		List,
-		Loading,
 		Menu,
 		Message,
 		Modal,
@@ -43,6 +42,7 @@
 		Skeleton,
 		Slider,
 		Space,
+		Spinner,
 		Steps,
 		Switch,
 		Table,
@@ -105,7 +105,6 @@
 	<Input></Input>
 	<InputNumber></InputNumber>
 	<List></List>
-	<Loading></Loading>
 	<Menu></Menu>
 	<Message></Message>
 	<Modal></Modal>
@@ -120,7 +119,11 @@
 	<Seperator />
 	<Skeleton></Skeleton>
 	<Slider></Slider>
-	<Space></Space>
+	<Space>
+		test
+		<div>hello world</div>
+	</Space>
+	<Spinner></Spinner>
 	<Steps></Steps>
 	<Switch></Switch>
 	<Table></Table>

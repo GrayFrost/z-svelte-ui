@@ -26,7 +26,6 @@ export { default as InfiniteScroll } from './infinite-scroll/InfiniteScroll.svel
 export { default as Input } from './input/Input.svelte';
 export { default as InputNumber } from './input-number/InputNumber.svelte';
 export { default as List } from './list/List.svelte';
-export { default as Loading } from './loading/Loading.svelte';
 export { default as Menu } from './menu/Menu.svelte';
 export { default as Message } from './message/Message.svelte';
 export { default as Modal } from './modal/Modal.svelte';
@@ -42,6 +41,7 @@ export { default as Seperator } from './seperator/Seperator.svelte';
 export { default as Skeleton } from './skeleton/Skeleton.svelte';
 export { default as Slider } from './slider/Slider.svelte';
 export { default as Space } from './space/Space.svelte';
+export { default as Spinner } from './spinner/Spinner.svelte';
 export { default as Steps } from './steps/Steps.svelte';
 export { default as Switch } from './switch/Switch.svelte';
 export { default as Table } from './table/Table.svelte';
