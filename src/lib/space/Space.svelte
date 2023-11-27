@@ -17,6 +17,16 @@
     return { destroy };
   }
 
+  divs.forEach(function (div, index) {
+    if (div.nodeType === 3 && /^\s+$/.test(div.nodeValue)) {
+      return;
+    }
+    var elem = document.createElement("div");
+    elem.className = "father";
+    div.parentNode.insertBefore(elem, div);
+    elem.appendChild(div);
+  });
+
   let spaceWrapperClasses = twMerge(
     direction === 'horizontal' ? 'flex-row' : 'flex-col'
   );
