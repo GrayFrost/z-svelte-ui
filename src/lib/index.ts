@@ -46,7 +46,7 @@ export { default as Steps } from './steps/Steps.svelte';
 export { default as Switch } from './switch/Switch.svelte';
 export { default as Table } from './table/Table.svelte';
 export { default as Tabs } from './tabs/Tabs.svelte';
-export { default as TabPane } from './tabs/TabPane.svelte';
+export { default as TabPanel } from './tabs/TabPanel.svelte';
 export { default as Tag } from './tag/Tag.svelte';
 export { default as TimePicker } from './time-picker/TimePicker.svelte';
 export { default as Timeline } from './timeline/Timeline.svelte';

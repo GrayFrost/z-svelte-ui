@@ -47,13 +47,14 @@
 		Switch,
 		Table,
 		Tabs,
+		TabPanel,
 		Tag,
 		TimePicker,
 		Timeline,
 		Tooltip,
 		Transfer,
 		Tree,
-		Upload
+		Upload,
 	} from '$lib';
 
 	let drawerShow = false;
@@ -123,7 +124,10 @@
 	<Steps></Steps>
 	<Switch></Switch>
 	<Table></Table>
-	<Tabs></Tabs>
+	<Tabs>
+		<TabPanel active title="title1">panel1</TabPanel>
+		<TabPanel title="title2">panel2</TabPanel>
+	</Tabs>
 	<Tag></Tag>
 	<TimePicker></TimePicker>
 	<Timeline></Timeline>

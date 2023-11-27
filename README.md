@@ -48,7 +48,7 @@
 - [ ] steps
 - [ ] switch
 - [ ] table
-- [ ] tabs
+- [X] tabs
 - [ ] time-picker
 - [ ] timeline
 - [ ] tooltip
