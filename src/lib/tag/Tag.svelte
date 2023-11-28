@@ -8,11 +8,11 @@
   };
 
   let colorMap: Record<any, string> = {
-    blue: generateTagClass('blue'),
-    green: generateTagClass('green'),
-    red: generateTagClass('red'),
-    orange: generateTagClass('orange'),
-    yellow: generateTagClass('yellow'),
+    blue: 'text-blue-400 border border-solid border-blue-400 bg-blue-200',
+    green: 'text-green-400 border border-solid border-green-400 bg-green-200',
+    red: 'text-red-400 border border-solid border-red-400 bg-red-200',
+    orange: 'text-orange-400 border border-solid border-orange-400 bg-orange-200',
+    yellow: 'text-yellow-400 border border-solid border-yellow-400 bg-yellow-200',
   };
 
   let tagClasses = twMerge(
