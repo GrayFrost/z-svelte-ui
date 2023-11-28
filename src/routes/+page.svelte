@@ -85,7 +85,11 @@
 </ButtonGroup>
 <hr />
 <Calendar></Calendar>
-<Card></Card>
+<hr />
+<Card class="w-60 h-80">
+	card content
+</Card>
+<hr />
 <Carousel></Carousel>
 <Cascader></Cascader>
 <Checkbox></Checkbox>
@@ -144,3 +148,9 @@
 <Transfer></Transfer>
 <Tree></Tree>
 <Upload></Upload>
+
+<style>
+	hr {
+		margin: 16px 0;
+	}
+</style>

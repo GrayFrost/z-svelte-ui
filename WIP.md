@@ -49,7 +49,7 @@ group
 
 ## 简单
 
-button, button-group, progress, radio, seperator, space, tabs,
+button, button-group, progress, radio, seperator, space, tabs, tag, card
 
 ## 复杂
 

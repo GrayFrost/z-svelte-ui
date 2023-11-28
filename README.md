@@ -1,6 +1,6 @@
 ## components
 
-当前进度（8 / 54）
+当前进度（9 / 54）
 
 - [ ] affix
 - [ ] alert
@@ -13,7 +13,7 @@
 - [X] button
 - [X] button-group
 - [ ] calendar
-- [ ] card
+- [X] card
 - [ ] carousel
 - [ ] cascader
 - [ ] checkbox
