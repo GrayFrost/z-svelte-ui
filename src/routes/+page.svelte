@@ -119,7 +119,7 @@
 	<Seperator />
 	<Skeleton></Skeleton>
 	<Slider></Slider>
-	<Space>
+	<Space direction="vertical">
 		test
 		<div>hello world</div>
 	</Space>

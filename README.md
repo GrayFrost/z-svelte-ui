@@ -44,7 +44,7 @@
 - [X] seperator
 - [ ] skeleton
 - [ ] slider
-- [ ] space
+- [X] space
 - [ ] steps
 - [ ] switch
 - [ ] table

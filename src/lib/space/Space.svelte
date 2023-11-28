@@ -1,37 +1,35 @@
 <script lang="ts">
-  import { twMerge } from 'tailwind-merge';
+	import { twMerge } from 'tailwind-merge';
 
-  export let direction: 'horizontal' | 'vertical' = 'horizontal';
-  let spaceClasses = 'mr-2 last:mr-0';
-  
-  function space(node: HTMLElement) {
-    console.log('zzh node', [node]);
-    node.childNodes = node.childNodes.forEach((element) => {
-      const wrapItem = document.createElement('div');
-      wrapItem.className = 'z-space-item';
-      wrapItem.appendChild(element);
-    });
-    const destroy = () => {
-      console.log('zzh node', node);
-    };
-    return { destroy };
-  }
+	export let direction: 'horizontal' | 'vertical' = 'horizontal';
+	let spaceClasses = direction === 'horizontal' ? 'mr-2 last:mr-0' : 'mb-2 last:mb-0';
 
-  divs.forEach(function (div, index) {
-    if (div.nodeType === 3 && /^\s+$/.test(div.nodeValue)) {
-      return;
+	function space(node: HTMLElement) {
+    const wrap = () => {
+      node.childNodes.forEach((element) => {
+				if (!element) {
+					return;
+				}
+				if (element.nodeType === 3 && (!element.nodeValue || /^\s+$/.test(element.nodeValue))) {
+					return;
+				}
+				if (element.parentNode) {
+					const wrapItem = document.createElement('div');
+					wrapItem.className = spaceClasses;
+					element.parentNode.insertBefore(wrapItem, element);
+					wrapItem.appendChild(element);
+				}
+			});
     }
-    var elem = document.createElement("div");
-    elem.className = "father";
-    div.parentNode.insertBefore(elem, div);
-    elem.appendChild(div);
-  });
+    wrap();
+		return {
+      destroy: wrap
+    };
+	}
 
-  let spaceWrapperClasses = twMerge(
-    direction === 'horizontal' ? 'flex-row' : 'flex-col'
-  );
+	let spaceWrapperClasses = twMerge(direction === 'horizontal' ? 'flex flex-row' : 'flex flex-col');
 </script>
 
 <div use:space class={spaceWrapperClasses}>
-  <slot />
+	<slot />
 </div>
