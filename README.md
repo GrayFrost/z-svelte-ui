@@ -1,6 +1,6 @@
 ## components
 
-当前进度（5 / 53）
+当前进度（8 / 54）
 
 - [ ] affix
 - [ ] alert
@@ -49,6 +49,7 @@
 - [ ] switch
 - [ ] table
 - [X] tabs
+- [X] tag
 - [ ] time-picker
 - [ ] timeline
 - [ ] tooltip

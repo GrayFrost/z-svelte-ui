@@ -4,6 +4,6 @@
 
 <header class="sticky"></header>
 
-<div class="lg:flex">
+<div class="flex">
   <slot></slot>
 </div>

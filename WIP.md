@@ -40,11 +40,16 @@ group
 
 样式
 
+
+## tag
+
+抽离公共class
+
 ## clickoutside
 
 ## 简单
 
-button, button-group, progress, radio, seperator, space, tabs, 
+button, button-group, progress, radio, seperator, space, tabs,
 
 ## 复杂
 

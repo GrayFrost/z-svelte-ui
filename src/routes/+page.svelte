@@ -63,7 +63,7 @@
 	}
 </script>
 
-<div class="flex flex-col">
+<div class="flex flex-col w-full">
 	<Affix></Affix>
 	<Alert></Alert>
 	<Anchor></Anchor>
@@ -127,11 +127,18 @@
 	<Steps></Steps>
 	<Switch></Switch>
 	<Table></Table>
+	<hr />
 	<Tabs>
 		<TabPanel active title="title1">panel1</TabPanel>
 		<TabPanel title="title2">panel2</TabPanel>
 	</Tabs>
-	<Tag></Tag>
+	<hr />
+	<Tag>hello tag</Tag>
+	<Tag color="orange">hello tag</Tag>
+	<Tag color="red">hello tag</Tag>
+	<Tag color="green">hello tag</Tag>
+	<Tag color="yellow">hello tag</Tag>
+	<hr />
 	<TimePicker></TimePicker>
 	<Timeline></Timeline>
 	<Tooltip></Tooltip>
