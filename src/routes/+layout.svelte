@@ -4,6 +4,6 @@
 
 <header class="sticky"></header>
 
-<div class="flex">
+<div class="w-full">
   <slot></slot>
 </div>

@@ -54,95 +54,93 @@
 		Tooltip,
 		Transfer,
 		Tree,
-		Upload,
+		Upload
 	} from '$lib';
 
 	let drawerShow = false;
 	const testDrawer = () => {
 		drawerShow = !drawerShow;
-	}
+	};
 </script>
 
-<div class="flex flex-col w-full">
-	<Affix></Affix>
-	<Alert></Alert>
-	<Anchor></Anchor>
-	<AutoComplete></AutoComplete>
-	<Avatar></Avatar>
-	<BackTop></BackTop>
-	<Badge></Badge>
-	<Breadcrumb></Breadcrumb>
-	<hr />
+<Affix></Affix>
+<Alert></Alert>
+<Anchor></Anchor>
+<AutoComplete></AutoComplete>
+<Avatar></Avatar>
+<BackTop></BackTop>
+<Badge></Badge>
+<Breadcrumb></Breadcrumb>
+<hr />
+<Button>default</Button>
+<Button type="primary">primary</Button>
+<Button type="dashed">dashed</Button>
+<Button type="text">text</Button>
+<Button type="link">link</Button>
+<hr />
+<ButtonGroup>
 	<Button>default</Button>
 	<Button type="primary">primary</Button>
 	<Button type="dashed">dashed</Button>
-	<Button type="text">text</Button>
-	<Button type="link">link</Button>
-	<hr />
-	<ButtonGroup>
-		<Button>default</Button>
-		<Button type="primary">primary</Button>
-		<Button type="dashed">dashed</Button>
-	</ButtonGroup>
-	<hr />
-	<Calendar></Calendar>
-	<Card></Card>
-	<Carousel></Carousel>
-	<Cascader></Cascader>
-	<Checkbox></Checkbox>
-	<Col></Col>
-	<Collapse></Collapse>
-	<ColorPicker></ColorPicker>
-	<DatePicker></DatePicker>
-	<hr />
-	<button on:click={testDrawer}>test drawer</button>
-	<Drawer visible={drawerShow}></Drawer>
-	<hr />
-	<Dropdown></Dropdown>
-	<Form></Form>
-	<Grid></Grid>
-	<InfiniteScroll></InfiniteScroll>
-	<Input></Input>
-	<InputNumber></InputNumber>
-	<List></List>
-	<Menu></Menu>
-	<Message></Message>
-	<Modal></Modal>
-	<Notification></Notification>
-	<Pagination></Pagination>
-	<Popconfirm></Popconfirm>
-	<Popover></Popover>
-	<Progress progress={45}></Progress>
-	<Radio></Radio>
-	<Row></Row>
-	<Select></Select>
-	<Seperator />
-	<Skeleton></Skeleton>
-	<Slider></Slider>
-	<Space direction="vertical">
-		test
-		<div>hello world</div>
-	</Space>
-	<Spinner></Spinner>
-	<Steps></Steps>
-	<Switch></Switch>
-	<Table></Table>
-	<hr />
-	<Tabs>
-		<TabPanel active title="title1">panel1</TabPanel>
-		<TabPanel title="title2">panel2</TabPanel>
-	</Tabs>
-	<hr />
-	<Tag>hello tag</Tag>
-	<Tag color="orange">hello tag</Tag>
-	<Tag color="red">hello tag</Tag>
-	<Tag color="green">hello tag</Tag>
-	<Tag color="yellow">hello tag</Tag>
-	<hr />
-	<TimePicker></TimePicker>
-	<Timeline></Timeline>
-	<Tooltip></Tooltip>
-	<Transfer></Transfer>
-	<Tree></Tree>
-	<Upload></Upload>
-</div>
+</ButtonGroup>
+<hr />
+<Calendar></Calendar>
+<Card></Card>
+<Carousel></Carousel>
+<Cascader></Cascader>
+<Checkbox></Checkbox>
+<Col></Col>
+<Collapse></Collapse>
+<ColorPicker></ColorPicker>
+<DatePicker></DatePicker>
+<hr />
+<button on:click={testDrawer}>test drawer</button>
+<Drawer visible={drawerShow}></Drawer>
+<hr />
+<Dropdown></Dropdown>
+<Form></Form>
+<Grid></Grid>
+<InfiniteScroll></InfiniteScroll>
+<Input></Input>
+<InputNumber></InputNumber>
+<List></List>
+<Menu></Menu>
+<Message></Message>
+<Modal></Modal>
+<Notification></Notification>
+<Pagination></Pagination>
+<Popconfirm></Popconfirm>
+<Popover></Popover>
+<Progress progress={45}></Progress>
+<Radio></Radio>
+<Row></Row>
+<Select></Select>
+<Seperator />
+<Skeleton></Skeleton>
+<Slider></Slider>
+<Space direction="vertical">
+	test
+	<div>hello world</div>
+</Space>
+<Spinner></Spinner>
+<Steps></Steps>
+<Switch></Switch>
+<Table></Table>
+<hr />
+<Tabs>
+	<TabPanel active title="title1">panel1</TabPanel>
+	<TabPanel title="title2">panel2</TabPanel>
+</Tabs>
+<hr />
+<Tag>hello tag</Tag>
+<Tag color="orange">hello tag</Tag>
+<Tag color="red">hello tag</Tag>
+<Tag color="green">hello tag</Tag>
+<Tag color="yellow">hello tag</Tag>
+<hr />
+<TimePicker></TimePicker>
+<Timeline></Timeline>
+<Tooltip></Tooltip>
+<Transfer></Transfer>
+<Tree></Tree>
+<Upload></Upload>
