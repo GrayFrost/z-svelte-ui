@@ -45,11 +45,18 @@ group
 
 抽离公共class
 
+
+## spinner
+
+样式
+
+挑选合适的图形
+
 ## clickoutside
 
 ## 简单
 
-button, button-group, progress, radio, seperator, space, tabs, tag, card
+button, button-group, progress, radio, seperator, space, tabs, tag, card, spinner
 
 ## 复杂
 

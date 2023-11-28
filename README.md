@@ -1,6 +1,6 @@
 ## components
 
-当前进度（9 / 54）
+当前进度（10 / 54）
 
 - [ ] affix
 - [ ] alert
@@ -29,7 +29,6 @@
 - [ ] input
 - [ ] input-number
 - [ ] list
-- [ ] loading
 - [ ] menu
 - [ ] message
 - [ ] modal
@@ -45,6 +44,7 @@
 - [ ] skeleton
 - [ ] slider
 - [X] space
+- [X] spinner
 - [ ] steps
 - [ ] switch
 - [ ] table
