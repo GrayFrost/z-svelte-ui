@@ -111,8 +111,11 @@
 <Form></Form>
 <Grid></Grid>
 <InfiniteScroll></InfiniteScroll>
+<hr />
 <Input></Input>
+<hr />
 <InputNumber></InputNumber>
+<hr />
 <List></List>
 <Menu></Menu>
 <Message></Message>

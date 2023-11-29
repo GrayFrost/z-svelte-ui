@@ -57,6 +57,13 @@ icon
 
 样式
 
+
+## input
+
+input input-number
+
+样式和功能完善
+
 ## clickoutside
 
 ## 简单

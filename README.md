@@ -26,8 +26,8 @@
 - [ ] form
 - [ ] grid
 - [ ] infinite-scroll
-- [ ] input
-- [ ] input-number
+- [X] input
+- [X] input-number
 - [ ] list
 - [ ] menu
 - [ ] message
