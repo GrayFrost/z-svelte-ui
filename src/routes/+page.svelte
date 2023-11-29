@@ -8,6 +8,7 @@
 		BackTop,
 		Badge,
 		Breadcrumb,
+		BreadcrumbItem,
 		Button,
 		ButtonGroup,
 		Calendar,
@@ -36,6 +37,7 @@
 		Popover,
 		Progress,
 		Radio,
+		Rate,
 		Row,
 		Select,
 		Seperator,
@@ -70,7 +72,11 @@
 <Avatar></Avatar>
 <BackTop></BackTop>
 <Badge></Badge>
-<Breadcrumb></Breadcrumb>
+<hr />
+<Breadcrumb>
+	<BreadcrumbItem>crumb1</BreadcrumbItem>
+	<BreadcrumbItem>crumb2</BreadcrumbItem>
+</Breadcrumb>
 <hr />
 <Button>default</Button>
 <Button type="primary">primary</Button>
@@ -117,6 +123,7 @@
 <Popover></Popover>
 <Progress progress={45}></Progress>
 <Radio></Radio>
+<Rate></Rate>
 <Row></Row>
 <Select></Select>
 <Seperator />

@@ -9,7 +9,7 @@
 - [ ] avatar
 - [ ] back-top
 - [ ] badge
-- [ ] breadcrumb
+- [X] breadcrumb
 - [X] button
 - [X] button-group
 - [ ] calendar

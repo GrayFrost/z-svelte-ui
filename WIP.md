@@ -40,11 +40,9 @@ group
 
 样式
 
-
 ## tag
 
 抽离公共class
-
 
 ## spinner
 
@@ -52,11 +50,18 @@ group
 
 挑选合适的图形
 
+
+## breadcrumb
+
+icon
+
+样式
+
 ## clickoutside
 
 ## 简单
 
-button, button-group, progress, radio, seperator, space, tabs, tag, card, spinner
+button, button-group, progress, radio, seperator, space, tabs, tag, card, spinner, breadcrumb
 
 ## 复杂
 
