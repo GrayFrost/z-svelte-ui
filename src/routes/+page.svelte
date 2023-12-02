@@ -69,7 +69,9 @@
 <Alert></Alert>
 <Anchor></Anchor>
 <AutoComplete></AutoComplete>
-<Avatar></Avatar>
+<hr />
+<Avatar src="https://avatars.githubusercontent.com/u/18083507?v=4"></Avatar>
+<hr />
 <BackTop></BackTop>
 <Badge></Badge>
 <hr />

@@ -1,12 +1,12 @@
 ## components
 
-当前进度（10 / 54）
+当前进度（16 / 54）
 
 - [ ] affix
 - [ ] alert
 - [ ] anchor
 - [ ] auto-complete
-- [ ] avatar
+- [X] avatar
 - [ ] back-top
 - [ ] badge
 - [X] breadcrumb
@@ -16,12 +16,12 @@
 - [X] card
 - [ ] carousel
 - [ ] cascader
-- [ ] checkbox
+- [X] checkbox
 - [ ] col
 - [ ] collapse
 - [ ] color-picker
 - [ ] date-picker
-- [ ] drawer
+- [X] drawer
 - [ ] dropdown
 - [ ] form
 - [ ] grid
