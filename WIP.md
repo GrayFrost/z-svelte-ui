@@ -68,7 +68,7 @@ input input-number
 
 ## 简单
 
-button, button-group, progress, radio, seperator, space, tabs, tag, card, spinner, breadcrumb, avatar
+button, button-group, progress, radio, seperator, space, tabs, tag, card, spinner, breadcrumb, avatar, badge
 
 ## 复杂
 

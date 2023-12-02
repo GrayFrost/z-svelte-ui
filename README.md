@@ -1,6 +1,6 @@
 ## components
 
-当前进度（16 / 54）
+当前进度（17 / 54）
 
 - [ ] affix
 - [ ] alert
@@ -8,7 +8,7 @@
 - [ ] auto-complete
 - [X] avatar
 - [ ] back-top
-- [ ] badge
+- [X] badge
 - [X] breadcrumb
 - [X] button
 - [X] button-group

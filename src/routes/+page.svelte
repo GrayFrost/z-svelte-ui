@@ -73,7 +73,10 @@
 <Avatar src="https://avatars.githubusercontent.com/u/18083507?v=4"></Avatar>
 <hr />
 <BackTop></BackTop>
-<Badge></Badge>
+<hr />
+<Badge count={15}>
+	<span style="background: green;">badge test</span>
+</Badge>
 <hr />
 <Breadcrumb>
 	<BreadcrumbItem>crumb1</BreadcrumbItem>
