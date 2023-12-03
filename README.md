@@ -1,6 +1,6 @@
 ## components
 
-当前进度（17 / 54）
+当前进度（18 / 55）
 
 - [ ] affix
 - [ ] alert
@@ -38,6 +38,7 @@
 - [ ] popover
 - [X] progress
 - [X] radio
+- [X] rate
 - [ ] row
 - [ ] select
 - [X] seperator

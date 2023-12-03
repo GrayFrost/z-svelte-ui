@@ -64,11 +64,15 @@ input input-number
 
 样式和功能完善
 
+## rate
+动效
+hover交互
+
 ## clickoutside
 
 ## 简单
 
-button, button-group, progress, radio, seperator, space, tabs, tag, card, spinner, breadcrumb, avatar, badge
+button, button-group, progress, radio, seperator, space, tabs, tag, card, spinner, breadcrumb, avatar, badge, rate
 
 ## 复杂
 

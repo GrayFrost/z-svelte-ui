@@ -131,7 +131,9 @@
 <Popover></Popover>
 <Progress progress={45}></Progress>
 <Radio></Radio>
-<Rate></Rate>
+<hr />
+<Rate value={3.3} size={48}></Rate>
+<hr />
 <Row></Row>
 <Select></Select>
 <Seperator />
