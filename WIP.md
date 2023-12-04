@@ -71,21 +71,19 @@ hover交互
 
 动效
 
-
 ## alert
 
 页面出现多个时的删除动效
-
 
 ## backtop
 
 移除监听
 
-## clickoutside
+
 
 ## 简单
 
-button, button-group, progress, radio, seperator, space, tabs, tag, card, spinner, breadcrumb, avatar, badge, rate
+button, button-group, progress, radio, seperator, space, tabs, tag, card, spinner, breadcrumb, avatar, badge, rate, modal, alert, backtop
 
 ## 复杂
 
