@@ -1,13 +1,13 @@
 ## components
 
-当前进度（20 / 55）
+当前进度（21 / 55）
 
 - [ ] affix
 - [X] alert
 - [ ] anchor
 - [ ] auto-complete
 - [X] avatar
-- [ ] back-top
+- [X] back-top
 - [X] badge
 - [X] breadcrumb
 - [X] button
