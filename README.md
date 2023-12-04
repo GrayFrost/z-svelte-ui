@@ -1,6 +1,6 @@
 ## components
 
-当前进度（18 / 55）
+当前进度（19 / 55）
 
 - [ ] affix
 - [ ] alert
@@ -31,7 +31,7 @@
 - [ ] list
 - [ ] menu
 - [ ] message
-- [ ] modal
+- [X] modal
 - [ ] notification
 - [ ] pagination
 - [ ] popconfirm

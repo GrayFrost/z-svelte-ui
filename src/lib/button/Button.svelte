@@ -39,6 +39,6 @@ $: buttonClass = twMerge(
 )
 </script>
 
-<button class={buttonClass}>
+<button class={buttonClass} on:click>
   <slot />
 </button>

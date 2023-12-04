@@ -50,13 +50,11 @@ group
 
 挑选合适的图形
 
-
 ## breadcrumb
 
 icon
 
 样式
-
 
 ## input
 
@@ -67,6 +65,11 @@ input input-number
 ## rate
 动效
 hover交互
+
+## modal
+
+动效
+
 
 ## clickoutside
 

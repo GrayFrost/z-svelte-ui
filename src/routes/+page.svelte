@@ -60,6 +60,7 @@
 	} from '$lib';
 
 	let drawerShow = false;
+	let showModal = false;
 	const testDrawer = () => {
 		drawerShow = !drawerShow;
 	};
@@ -124,7 +125,16 @@
 <List></List>
 <Menu></Menu>
 <Message></Message>
-<Modal></Modal>
+<hr />
+<Button on:click={() => showModal = true}>open modal</Button>
+<Modal
+	title="modal title"
+	open={showModal} on:close={() => showModal = false}
+>
+	modal content
+	<span slot="footer">footer</span>
+</Modal>
+<hr />
 <Notification></Notification>
 <Pagination></Pagination>
 <Popconfirm></Popconfirm>
