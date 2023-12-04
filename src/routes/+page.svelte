@@ -67,7 +67,10 @@
 </script>
 
 <Affix></Affix>
-<Alert></Alert>
+<hr />
+<Alert>alert text</Alert>
+<Alert type="success">alert text</Alert>
+<hr />
 <Anchor></Anchor>
 <AutoComplete></AutoComplete>
 <hr />

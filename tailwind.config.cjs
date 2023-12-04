@@ -9,6 +9,12 @@ const config = {
 			},
 			boxShadow: {
 				'badge': '0 0 0 1px #ffffff'
+			},
+			colors: {
+				success: '#b7eb8f',
+				info: '#91caff',
+				warning: '#ffe58f',
+				error: '#ffccc7'
 			}
 		}
 	},

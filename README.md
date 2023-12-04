@@ -1,9 +1,9 @@
 ## components
 
-当前进度（19 / 55）
+当前进度（20 / 55）
 
 - [ ] affix
-- [ ] alert
+- [X] alert
 - [ ] anchor
 - [ ] auto-complete
 - [X] avatar

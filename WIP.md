@@ -63,6 +63,7 @@ input input-number
 样式和功能完善
 
 ## rate
+
 动效
 hover交互
 
@@ -70,6 +71,10 @@ hover交互
 
 动效
 
+
+## alert
+
+页面出现多个时的删除动效
 
 ## clickoutside
 
