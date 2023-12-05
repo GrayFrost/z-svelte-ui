@@ -1,0 +1,1 @@
+export const TimelineContextKey = Symbol('Timeline');

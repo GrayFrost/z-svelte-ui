@@ -52,6 +52,7 @@ export { default as TabPanel } from './tabs/TabPanel.svelte';
 export { default as Tag } from './tag/Tag.svelte';
 export { default as TimePicker } from './time-picker/TimePicker.svelte';
 export { default as Timeline } from './timeline/Timeline.svelte';
+export { default as TimelineItem } from './timeline/TimelineItem.svelte';
 export { default as Tooltip } from './tooltip/Tooltip.svelte';
 export { default as Transfer } from './transfer/Transfer.svelte';
 export { default as Tree } from './tree/Tree.svelte';

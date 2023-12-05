@@ -17,8 +17,6 @@
   let partialId: string = uuid();
   let emptyId: string = uuid();
 
-  console.log('zzh rate data', fullIcons, rateDifference, differencePercent, notFullIcons);
-
   let rateClasses = twMerge(
     'flex flex-row items-center'
   )

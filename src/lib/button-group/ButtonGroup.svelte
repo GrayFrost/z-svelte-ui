@@ -10,7 +10,7 @@
     $$props.class,
   )
 
-  setContext('group', { size });
+  setContext('group', { size }); // todo rename
 </script>
 
 <div {...$$restProps} class={buttonGroupClass} role="group">

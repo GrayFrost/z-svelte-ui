@@ -9,7 +9,7 @@
     selected: writable<HTMLElement>()
   }
 
-  setContext('ctx', ctx);
+  setContext('ctx', ctx); // todo rename
 
   function init(node: HTMLElement) {
     const destroy = ctx.selected.subscribe((panel: HTMLElement) => {

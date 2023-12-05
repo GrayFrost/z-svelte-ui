@@ -53,6 +53,7 @@
 		Tag,
 		TimePicker,
 		Timeline,
+		TimelineItem,
 		Tooltip,
 		Transfer,
 		Tree,
@@ -173,7 +174,15 @@
 <Tag color="yellow">hello tag</Tag>
 <hr />
 <TimePicker></TimePicker>
-<Timeline></Timeline>
+<hr />
+<Timeline>
+	<TimelineItem>
+		<div style="height: 50px;">item 1</div>
+	</TimelineItem>
+	<TimelineItem>item 2</TimelineItem>
+	<TimelineItem>item 3</TimelineItem>
+</Timeline>
+<hr />
 <Tooltip></Tooltip>
 <Transfer></Transfer>
 <Tree></Tree>
