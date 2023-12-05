@@ -9,13 +9,13 @@
     "relative",
   );
   let headClasses = twMerge(
-    "absolute w-4 h-4 rounded-full bg-white border-4 border-solid border-sky-500"
+    "absolute w-4 h-4 top-1 rounded-full bg-white border-4 border-solid border-sky-500"
   );
   let tailClasses = twMerge(
-    "absolute left-2 h-full w-0.5 border border-solid border-gray-200"
+    "absolute left-1.5 top-1 h-full w-1 bg-gray-200"
   );
   let contentClasses = twMerge(
-    "ml-4"
+    "ml-5"
   )
 </script>
 
