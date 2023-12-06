@@ -2,19 +2,32 @@
 import { twMerge } from 'tailwind-merge';
 import { getContext } from 'svelte';
 import type { SizeType } from '$lib/types';
+import { ThemeContextKey } from '../theme-provider/context.ts';
 
+const commonConfig = getContext(ThemeContextKey);
 const group: SizeType = getContext('group');
+
+$: theme = $commonConfig ? $commonConfig.theme : 'light';
 
 export let type: 'primary' |
 'dashed' | 'link' | 'text' |  'default' = 'default';
 export let size: 'xs' | 'sm' | 'md' | 'lg' | 'xl' = 'md';
 
 const typeClasses = {
-  primary: 'text-white bg-black',
-  dashed: 'text-black bg-white border border-dashed border-gray-400',
-  link: 'text-blue-400',
-  text: 'text-black',
-  default: 'text-black bg-white border border-solid border-gray-400',
+  light: {
+    primary: 'text-white bg-blue-400',
+    dashed: 'text-black bg-white border border-dashed border-gray-400',
+    link: 'text-blue-400',
+    text: 'text-black',
+    default: 'text-black bg-white border border-solid border-gray-400',
+  },
+  dark: {
+    primary: 'text-white bg-slate-400',
+    dashed: 'text-white bg-slate border border-dashed border-gray-400',
+    link: 'text-slate-400',
+    text: 'text-white',
+    default: 'text-white bg-slate-400 border border-solid border-gray-400',
+  }
 }
 
 const sizeClasses = {
@@ -33,7 +46,7 @@ const radiusClasses = {
 }
 let buttonClass: string;
 $: buttonClass = twMerge(
-  typeClasses[type],
+  typeClasses[theme][type],
   sizeClasses[size],
   group ? 'first:rounded-l-lg last:rounded-r-lg' : radiusClasses[size],
 )

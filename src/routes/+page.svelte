@@ -51,6 +51,7 @@
 		Tabs,
 		TabPanel,
 		Tag,
+		ThemeProvider,
 		TimePicker,
 		Timeline,
 		TimelineItem,
@@ -88,6 +89,14 @@
 	<BreadcrumbItem>crumb2</BreadcrumbItem>
 </Breadcrumb>
 <hr />
+<ThemeProvider config={{theme: 'dark'}}>
+	<Button>default</Button>
+	<Button type="primary">primary</Button>
+	<Button type="dashed">dashed</Button>
+	<Button type="text">text</Button>
+	<Button type="link">link</Button>
+</ThemeProvider>
+
 <Button>default</Button>
 <Button type="primary">primary</Button>
 <Button type="dashed">dashed</Button>

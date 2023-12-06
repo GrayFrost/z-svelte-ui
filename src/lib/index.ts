@@ -50,6 +50,7 @@ export { default as Table } from './table/Table.svelte';
 export { default as Tabs } from './tabs/Tabs.svelte';
 export { default as TabPanel } from './tabs/TabPanel.svelte';
 export { default as Tag } from './tag/Tag.svelte';
+export { default as ThemeProvider } from './theme-provider/ThemeProvider.svelte';
 export { default as TimePicker } from './time-picker/TimePicker.svelte';
 export { default as Timeline } from './timeline/Timeline.svelte';
 export { default as TimelineItem } from './timeline/TimelineItem.svelte';
