@@ -153,10 +153,12 @@
 <Seperator />
 <Skeleton></Skeleton>
 <Slider></Slider>
+<hr />
 <Space direction="vertical">
-	test
-	<div>hello world</div>
+	test space
+	<div>hello world space</div>
 </Space>
+<hr />
 <Spinner></Spinner>
 <Steps></Steps>
 <Switch></Switch>
