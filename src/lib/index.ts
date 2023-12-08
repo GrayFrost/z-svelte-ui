@@ -57,4 +57,5 @@ export { default as TimelineItem } from './timeline/TimelineItem.svelte';
 export { default as Tooltip } from './tooltip/Tooltip.svelte';
 export { default as Transfer } from './transfer/Transfer.svelte';
 export { default as Tree } from './tree/Tree.svelte';
+export { default as Typography } from './typography/index.ts';
 export { default as Upload } from './upload/Upload.svelte';

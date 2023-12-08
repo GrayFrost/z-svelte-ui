@@ -58,6 +58,7 @@
 		Tooltip,
 		Transfer,
 		Tree,
+		Typography,
 		Upload
 	} from '$lib';
 
@@ -66,6 +67,8 @@
 	const testDrawer = () => {
 		drawerShow = !drawerShow;
 	};
+
+	const { Title, Text } = Typography;
 </script>
 
 <Affix></Affix>
@@ -160,7 +163,9 @@
 <Row></Row>
 <Select></Select>
 <Seperator />
-<Skeleton></Skeleton>
+<hr />
+<Skeleton avatar={true} title={true} paragraph={true}></Skeleton>
+<hr />
 <Slider></Slider>
 <hr />
 <Space direction="vertical">
@@ -197,6 +202,10 @@
 <Tooltip></Tooltip>
 <Transfer></Transfer>
 <Tree></Tree>
+<hr />
+<Title>Typography title</Title>
+<Text>typography text</Text>
+<hr />
 <Upload></Upload>
 
 <style>

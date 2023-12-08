@@ -1,6 +1,6 @@
 ## components
 
-当前进度（22 / 55）
+当前进度（24 / 56）
 
 - [ ] affix
 - [X] alert
@@ -42,7 +42,7 @@
 - [ ] row
 - [ ] select
 - [X] seperator
-- [ ] skeleton
+- [X] skeleton
 - [ ] slider
 - [X] space
 - [X] spinner
@@ -56,4 +56,5 @@
 - [ ] tooltip
 - [ ] transfer
 - [ ] tree
+- [X] typography
 - [ ] upload

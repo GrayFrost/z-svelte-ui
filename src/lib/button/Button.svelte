@@ -7,6 +7,8 @@ import { ThemeContextKey } from '../theme-provider/context.ts';
 const commonConfig = getContext(ThemeContextKey);
 const group: SizeType = getContext('group');
 
+export let prefixCls = 'zsu';
+
 $: theme = $commonConfig ? $commonConfig.theme : 'light';
 
 export let type: 'primary' |
