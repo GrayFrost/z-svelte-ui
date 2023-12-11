@@ -27,6 +27,7 @@ export { default as InfiniteScroll } from './infinite-scroll/InfiniteScroll.svel
 export { default as Input } from './input/Input.svelte';
 export { default as InputNumber } from './input-number/InputNumber.svelte';
 export { default as List } from './list/List.svelte';
+export { default as ListItem } from './list/ListItem.svelte';
 export { default as Menu } from './menu/Menu.svelte';
 export { default as Message } from './message/Message.svelte';
 export { default as Modal } from './modal/Modal.svelte';

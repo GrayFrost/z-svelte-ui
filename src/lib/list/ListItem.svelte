@@ -1,12 +1,9 @@
 <script lang="ts">
   import { twMerge } from 'tailwind-merge';
 
-  let listClasses;
-  $: listClasses = twMerge(
-
-  )
+  let listItemClasses = twMerge();
 </script>
 
-<ol class={listClasses}>
+<li class={listItemClasses}>
   <slot />
-</ol>
+</li>

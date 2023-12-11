@@ -79,14 +79,13 @@ hover交互
 
 移除监听
 
-
 ## timeline
 
 样式
 
 ## 简单
 
-button, button-group, progress, radio, seperator, space, tabs, tag, card, spinner, breadcrumb, avatar, badge, rate, modal, alert, backtop
+button, button-group, progress, radio, seperator, space, tabs, tag, card, spinner, breadcrumb, avatar, badge, rate, modal, alert, backtop, list
 
 ## 复杂
 

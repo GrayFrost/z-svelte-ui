@@ -28,7 +28,7 @@
 - [ ] infinite-scroll
 - [X] input
 - [X] input-number
-- [ ] list
+- [X] list
 - [ ] menu
 - [ ] message
 - [X] modal

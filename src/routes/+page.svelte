@@ -28,6 +28,7 @@
 		Input,
 		InputNumber,
 		List,
+		ListItem,
 		Menu,
 		Message,
 		Modal,
@@ -138,7 +139,11 @@
 <hr />
 <InputNumber></InputNumber>
 <hr />
-<List></List>
+<List>
+	<ListItem>list item 1</ListItem>
+	<ListItem>list item 2</ListItem>
+</List>
+<hr />
 <Menu></Menu>
 <Message></Message>
 <hr />
